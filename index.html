@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <button class="cartBtn">Корзина <i class="fas fa-caret-down"></i></button>
+        <div class="shopCart">
+            <div class="titles">
+                <div class="idTitle">ID</div>
+                <div class="nameTitle">Имя</div>
+                <div class="priceTitle">Цена</div>
+                <div class="quantityTitle">Кол-во</div>
+                <div class="trashTitle"></div>
+            </div>
+            <div class="cartSum">Итого
+                <span class="sumShow">0</span> <i class="fas fa-ruble-sign"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="product">
+            <h5 class="prodTitle">Продукт1</h5>
+            <img src="https://images.wallpaperscraft.ru/image/poberezhe_vid_sverhu_derevia_183141_240x320.jpg" alt="">
+            <p class="prodPrice">150 <i class="fas fa-ruble-sign"></i></p>
+            <button class="prodButton" data-id="1">В корзину</button>
+        </div>
+        <div class="product">
+            <h5 class="prodTitle">Продукт2</h5>
+            <img src="https://images.wallpaperscraft.ru/image/malina_iagoda_siren_183139_240x320.jpg" alt="">
+            <p class="prodPrice">72 <i class="fas fa-ruble-sign"></i></p>
+            <button class="prodButton" data-id="2">В корзину</button>
+        </div>
+        <div class="product">
+            <h5 class="prodTitle">Продукт3</h5>
+            <img src="https://images.wallpaperscraft.ru/image/mototsikl_vid_sboku_bajk_183133_240x320.jpg" alt="">
+            <p class="prodPrice">5000 <i class="fas fa-ruble-sign"></i></p>
+            <button class="prodButton" data-id="3">В корзину</button>
+        </div>
+        <div class="product">
+            <h5 class="prodTitle">Продукт4</h5>
+            <img src="https://images.wallpaperscraft.ru/image/ferrari_avtomobil_sportkar_183130_240x320.jpg" alt="">
+            <p class="prodPrice">3250 <i class="fas fa-ruble-sign"></i></p>
+            <button class="prodButton" data-id="4">В корзину</button>
+        </div>
+        <div class="product">
+            <h5 class="prodTitle">Продукт5</h5>
+            <img src="https://images.wallpaperscraft.ru/image/makaruny_pirozhnoe_desert_183124_240x320.jpg" alt="">
+            <p class="prodPrice">998 <i class="fas fa-ruble-sign"></i></p>
+            <button class="prodButton" data-id="5">В корзину</button>
+        </div>
+        <div class="product">
+            <h5 class="prodTitle">Продукт6</h5>
+            <img src="https://images.wallpaperscraft.ru/image/malina_iagoda_siren_183139_240x320.jpg" alt="">
+            <p class="prodPrice">564 <i class="fas fa-ruble-sign"></i></p>
+            <button class="prodButton" data-id="6">В корзину</button>
+        </div>
+    </div>
+
+
+    <script src="js/shoppingCart.js" charset="utf-8"></script>
+</body>
+</html>
